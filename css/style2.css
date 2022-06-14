@@ -40,6 +40,7 @@ html{
 }
 
 
+
 .imagen-logo{
     height:100px;
     width: auto;
@@ -100,11 +101,13 @@ html{
 
 .padre{
     /* grid-area: "temporada"; */
-    padding:2rem;
+    margin: 10px;
+    box-sizing: border-box;
+    padding:1px;
     display: flex;
     flex-direction: row;
-    align-content: center;
-    justify-items: center;
+    align-content: center ;
+    justify-content: center;
 
     width: 80%;
 }
@@ -128,16 +131,16 @@ html{
    box-sizing: border-box;
     padding:10px;
     /* margin:10px 10px 5px 10px;padding: 5px ; border: 0.1rem solid rgb(235, 107, 213); */
-    background-color: rgb(255, 217, 244); 
+    background-color: rgb(255, 217, 244);
     /* align-content: center;
     justify-items: center; */
-   
-    
+
+
 }
 
 /* .footer{
     /* background-color: rgb(139, 203, 255,0.8); */
-     color: white;}
+     color: white;
   /*  box-sizing: border-box;
     padding: 5% 15%;
     color:white;
@@ -146,7 +149,7 @@ html{
     justify-content: space-between;
     align-items: flex-start;
 
-}  */ 
+}  */
 
 .footer-col > h2{
     text-transform: uppercase;
@@ -234,6 +237,8 @@ html{
 .image-card:hover{
     height: 400px;
     width: auto;
+    transition: 3s ease all;
+   } 
 
 /* .producto{
     display: flex;
@@ -245,7 +250,7 @@ html{
     width: 100%;
 } */
 
-.preguntas { 
+.preguntas {
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -352,7 +357,7 @@ html{
     }
 
     .footer{
-        
+
 
         background-color: rgb(139, 203, 255,0.8);
         width:;
