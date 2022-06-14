@@ -88,6 +88,7 @@ html{
     flex-direction: column;
     align-items: center;
     column-gap: 10px;
+    /* background-image: linear-gradient(to botton,pink, rgb(254,255,207)); */
 }
 
 
@@ -234,7 +235,7 @@ html{
     height: 400px;
     width: auto;
 
- .productos{
+/* .producto{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -242,16 +243,17 @@ html{
     justify-content: flex-start;
     height: 300px;
     width: 100%;
-}
+} */
 
-.preguntas{
+.preguntas { 
     display: flex;
     flex-direction:column;
-    align-items: flex-start;
-    background-color:azure;
+    align-items: center;
+    background-color:rgb(40, 226, 226);
     margin: 20px;
     padding:30px;
     box-sizing: border-box;
+    border: 2px solid black;
 }
 .frecuentes{
     display: flex;
@@ -259,7 +261,7 @@ html{
     align-items: flex-start;
     padding-left: 15px;
     margin: 30px;
-
+    background-color: violet;
 }
 .footer{
 
@@ -366,7 +368,7 @@ html{
         flex-wrap: wrap;
 
     }
-}
+
 @media screen and (min-width:1024px){
     /* .card0{
         width:50%;
