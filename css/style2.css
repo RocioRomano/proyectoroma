@@ -125,7 +125,7 @@ html{
     columns:unset;
    margin: auto;
    box-sizing: border-box;
-    padding:
+    padding:10px;
     /* margin:10px 10px 5px 10px;padding: 5px ; border: 0.1rem solid rgb(235, 107, 213); */
     background-color: rgb(255, 217, 244); 
     /* align-content: center;
@@ -212,7 +212,7 @@ html{
 
 .card-title{
  grid-area: title;
- background-color: rgb(207, 165, 247);
+ background-color: rgb(144, 103, 182);
 }
 .card-content{
     grid-area: content;
