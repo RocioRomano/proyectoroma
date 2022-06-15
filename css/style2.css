@@ -159,7 +159,7 @@ html{
     margin: 20px 30px;
     border:2px solid black;
     padding: 1rem;
-    /* background-image: linear-gradient(to top ,pink,rgb(213, 168, 255,0.8)); */
+    background-image: linear-gradient(to top ,pink,rgb(213, 168, 255,0.8));
    font-size: 2rem black;
    display: flex;
    flex-direction: column;
