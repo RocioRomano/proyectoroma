@@ -9,7 +9,7 @@
     box-sizing: border-box;
     border: 1px solid black;
 
-    .preguntas__frecuentes{
+    &__frecuentes{
         display: flex;
         flex-direction:column;
         align-items: flex-start;

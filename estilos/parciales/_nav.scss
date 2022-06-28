@@ -3,14 +3,14 @@
     height:"max-content";
     border-radius: 10%;
     
-    .nav__ul{
+    &__ul{
         display:flex;
         flex-direction: row;
         align-content: flex-end;
         justify-items: flex-end;
         border-radius: 5%;
     }
-    .nav__li{
+    &__li{
         font-size: 1.5rem;
         font-family: monospace;
         color: azure;
