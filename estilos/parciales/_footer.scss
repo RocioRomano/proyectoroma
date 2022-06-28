@@ -11,18 +11,20 @@
     list-style: none;
     flex-wrap: wrap;
 
-    @media (max-width:480px){
-       font-size: map-get($map:$fuentes, $key:font1);
 
+    @media #{$mobile}{
+        
+        font-size: map-get($map:$fuentes, $key:font1);
     }
-     @media (min-width:720px){
-        background-color: blue;.
+    @media #{$tablet}{
+        
         font-size: map-get($map:$fuentes, $key:font2);
-
-    } 
-    @media (min-width:1024px){
-        background-color: green;
+       
+    }
+    @media #{$desktop}{
+       
         font-size: map-get($map:$fuentes, $key:font3);
 
     }
+
 }

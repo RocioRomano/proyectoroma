@@ -11,9 +11,8 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  background-color: rgba(139, 203, 255, 0.8);
+  background-color: rgb(254, 255, 207);
   flex-wrap: wrap;
-  font-size: 1.6rem;
 }
 .header .imagen-logo {
   height: 100px;
@@ -45,7 +44,7 @@
 }
 
 .main {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   width: 100%;
   box-sizing: border-box;
   display: flex;
@@ -85,19 +84,19 @@
   list-style: none;
   flex-wrap: wrap;
 }
-@media (max-width: 480px) {
+@media (max-width:480px) {
   .footer {
-    background-color: orange;
+    font-size: 0.9rem;
   }
 }
-@media (min-width: 720px) {
+@media (min-width:480px) and (max-width:720px) {
   .footer {
-    background-color: blue;
+    font-size: 1.4rem;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width:1024px) {
   .footer {
-    background-color: green;
+    font-size: 1.8rem;
   }
 }
 
@@ -106,7 +105,7 @@
   width: 17em;
   height: 300px;
   background-color: rgba(139, 203, 255, 0.8);
-  border-radius: 15px;
+  border-radius: 16px;
   display: flex;
   flex-direction: column;
   position: relative;
