@@ -172,7 +172,7 @@
   bottom: -30px;
 }
 
-.contenedor {
+.contenedor, .contenedorindex {
   width: 100%;
   height: auto;
   margin: 2em 0.5em 2em 0.5em;
