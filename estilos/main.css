@@ -211,6 +211,44 @@
   align-content: center;
   justify-items: center;
 }
-.hijo__imagen-logo {
+.hijo__imagen-100 {
   width: 100%;
+}
+@media (max-width:480px) {
+  .hijo {
+    font-size: 1rem;
+    max-width: 30em;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 20px;
+    border: 0.1rem solid rgb(235, 107, 213);
+    align-content: cente;
+    justify-content: space-around;
+  }
+}
+@media (min-width:480px) and (max-width:720px) {
+  .hijo {
+    font-size: 1.2rem;
+    max-width: 45em;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 20px;
+    border: 0.1rem solid rgb(235, 107, 213);
+    align-content: space-between;
+    justify-items: center;
+  }
+}
+@media (min-width:1024px) {
+  .hijo {
+    font-size: 1.5rem;
+    max-width: 46em;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 20px;
+    border: 0.1rem solid rgb(235, 107, 213);
+    align-content: space-between;
+    justify-items: center;
+  }
+}
+
+.h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
 }/*# sourceMappingURL=main.css.map */

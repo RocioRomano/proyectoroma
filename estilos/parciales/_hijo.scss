@@ -7,7 +7,33 @@
     display: flex;
     align-content: center;
     justify-items: center;
-    &__imagen-logo{
+    &__imagen-100{
         width: 100%;
    }
+   @media #{$mobile}{
+        
+    font-size: 1rem;
+    max-width: 30em;
+    margin:10px 10px 10px 10px;padding:10px 20px ; border: 0.1rem solid rgb(235, 107, 213);
+    align-content: cente;
+    justify-content: space-around;
+}
+@media #{$tablet}{ 
+    
+    font-size: 1.2rem;
+    max-width:45em ;
+    margin:10px 10px 10px 10px;padding:10px 20px ; border: 0.1rem solid rgb(235, 107, 213);
+    align-content: space-between;
+    justify-items: center;
+   
+}
+@media #{$desktop}{
+   
+    font-size: 1.5rem;
+    max-width:46em ;
+    margin:10px 10px 10px 10px;padding:10px 20px ; border: 0.1rem solid rgb(235, 107, 213);
+    align-content: space-between;
+    justify-items: center;
+
+}
    }
