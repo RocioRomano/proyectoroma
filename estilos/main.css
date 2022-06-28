@@ -11,8 +11,9 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  background-color: rgb(254, 255, 207);
+  background-color: rgba(139, 203, 255, 0.8);
   flex-wrap: wrap;
+  font-size: 1.6rem;
 }
 .header .imagen-logo {
   height: 100px;
@@ -44,6 +45,7 @@
 }
 
 .main {
+  font-size: 1.1rem;
   width: 100%;
   box-sizing: border-box;
   display: flex;
@@ -83,12 +85,27 @@
   list-style: none;
   flex-wrap: wrap;
 }
+@media (max-width: 480px) {
+  .footer {
+    background-color: orange;
+  }
+}
+@media (min-width: 720px) {
+  .footer {
+    background-color: blue;
+  }
+}
+@media (min-width: 1024px) {
+  .footer {
+    background-color: green;
+  }
+}
 
 .card {
   top: -50px;
   width: 17em;
   height: 300px;
-  background-color: lightblue;
+  background-color: rgba(139, 203, 255, 0.8);
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -181,4 +198,20 @@
   flex-direction: row;
   align-content: center;
   justify-content: center;
+}
+
+.hijo {
+  display: flex;
+  flex-grow: 1;
+  padding: 1rem;
+  margin: 10px 10px 10px 10px;
+  padding: 5px;
+  border: 0.1rem solid rgb(235, 107, 213);
+  background-color: rgb(255, 217, 244);
+  display: flex;
+  align-content: center;
+  justify-items: center;
+}
+.hijo__imagen-logo {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

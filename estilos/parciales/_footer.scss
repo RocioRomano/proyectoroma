@@ -1,8 +1,7 @@
-@import "./variables";
+@import "./map-get";
 .footer{
-
-    background-color: $colorcelesteroma;
-    box-sizing: border-box;
+    background-color: map-get($map:$colores, $key:celeste );
+ box-sizing: border-box;
     padding: 5% 15%;
     color:white;
     display:flex;
@@ -11,4 +10,19 @@
     align-items: flex-start;
     list-style: none;
     flex-wrap: wrap;
+
+    @media (max-width:480px){
+       font-size: map-get($map:$fuentes, $key:font1);
+
+    }
+     @media (min-width:720px){
+        background-color: blue;.
+        font-size: map-get($map:$fuentes, $key:font2);
+
+    } 
+    @media (min-width:1024px){
+        background-color: green;
+        font-size: map-get($map:$fuentes, $key:font3);
+
+    }
 }
