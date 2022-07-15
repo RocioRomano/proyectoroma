@@ -1,3 +1,4 @@
+@import "./mixins";
 .nav{
 
     height:"max-content";
@@ -22,7 +23,6 @@
         text-decoration-style: none;
     }
     &__link{
-        text-decoration: none;
-        list-style: none;
+       @include nodeco;
     }
 }
