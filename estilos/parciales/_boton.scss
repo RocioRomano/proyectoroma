@@ -15,7 +15,7 @@
 
     &:hover{
         background-color: rgb(226, 92, 226);
-        text-decoration: none;
+       @include nodeco;
     }
     &--absolute{
         position: absolute; 

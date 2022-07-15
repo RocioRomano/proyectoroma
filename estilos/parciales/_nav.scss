@@ -8,7 +8,7 @@
         display:flex;
         flex-direction: row;
         align-content: flex-end;
-        justify-items: flex-end;
+        justify-items: center;
         border-radius: 5%;
     }
     &__li{
@@ -25,11 +25,12 @@
     &__link{
         @include nodeco;
         @media #{$mobile}{
+        
             font-size: map-get($map:$fuentes, $key:font1);
             flex-direction:column;
             justify-content: space-evenly;
             flex-wrap: wrap;
-        }
+        }  
         @media #{$tablet}{
             
             font-size: map-get($map:$fuentes, $key:font2);
@@ -49,4 +50,3 @@
     
         }
     }
-}
