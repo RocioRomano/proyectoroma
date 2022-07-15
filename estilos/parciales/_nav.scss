@@ -17,10 +17,12 @@
         margin: 10px;
         padding: 1px;
         border-radius:3%;
-        
         display:inline-block;
         list-style: none;
         text-decoration-style: none;
     }
-
+    &__link{
+        text-decoration: none;
+        list-style: none;
+    }
 }
