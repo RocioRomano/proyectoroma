@@ -3,6 +3,8 @@
 
     height:"max-content";
     border-radius: 10%;
+    display: flex;
+    justify-content: space-around;
     
     &__ul{
         display:flex;
