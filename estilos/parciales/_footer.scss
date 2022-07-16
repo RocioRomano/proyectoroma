@@ -1,5 +1,9 @@
 @import "./map-get";
-.footer-col{
+
+.footer{
+    padding: 0;
+margin: 0;
+    &-col{
     background-color: map-get($map:$colores, $key:celeste );
     box-sizing: border-box;
     padding: 5% 15%;
@@ -9,21 +13,34 @@
     &__link{
         @include nodeco;
     }
-    
+    .gmap_canvas{
+        @media #{$mobile}{
+            @include sizes (300px,100px)
+    } 
+    @media #{$tablet}{ 
+        @include sizes (400px,150px)
+        }
+        @media #{$desktop}{ 
+        @include sizes (320px,320px)
+    }
+    }
     @media #{$mobile}{
-        
         font-size: map-get($map:$fuentes, $key:font1);
         flex-direction:column;
         justify-content: space-evenly;
         flex-wrap: wrap;
+        background-color: $colorlogo;
+       
+        
     }
     @media #{$tablet}{
-        
         font-size: map-get($map:$fuentes, $key:font2);
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-evenly;
         align-items: flex-start;
         flex-wrap: wrap;
+        background-color: $colorpastel;
+
        
     }
     @media #{$desktop}{
@@ -33,7 +50,9 @@
         justify-content: space-evenly;
         align-items: flex-start;
         flex-wrap: wrap;
-
+        background-color: black;
+        
     }
-
+    
+}
 }
