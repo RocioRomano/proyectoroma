@@ -82,7 +82,7 @@
 }
 @media (min-width:1024px) {
   .nav__link {
-    font-size: 8rem;
+    font-size: 1.8rem;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
@@ -154,7 +154,7 @@
 }
 @media (min-width:1024px) {
   .footer-col {
-    font-size: 8rem;
+    font-size: 1.8rem;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
