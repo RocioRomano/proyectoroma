@@ -18,6 +18,10 @@
         }
         .colorpastel{
             color:white;
-            background-color: ;
+            background-color:$colorpastel;
+        }
+        .logo{
+            display:flex;
+            justify-content:center;
         }
     }

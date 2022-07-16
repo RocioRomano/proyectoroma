@@ -10,6 +10,13 @@
         align-content: flex-end;
         justify-items: center;
         border-radius: 5%;
+        @media #{$mobile},#{$tablet} {
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+
     }
     &__li{
         font-size: 1.5rem;
@@ -50,3 +57,5 @@
     
         }
     }
+    
+}
