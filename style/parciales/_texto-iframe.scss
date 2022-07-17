@@ -1,0 +1,9 @@
+.texto-iframe{
+    font-size:large;
+    font-family:'Courier New', Courier, monospace;
+    font-style:oblique;
+    &-titulo{
+        font-style: italic;
+        font-size: xx-large;
+    }
+}
