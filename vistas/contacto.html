@@ -5,15 +5,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <title>Tienda Roma </title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/main.css">
+
     <script src="https://kit.fontawesome.com/81d6f9dd0f.js" crossorigin="anonymous"></script>
-    <title>Tienda Roma </title>
+   
   </head>
   <body>
     <header>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light" id="nav">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Tienda ROMA</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,98 +44,73 @@
       </nav>
 
     </header> 
-    <main>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2>REGISTRATE</h2>
-                </div>
-                <div class="col-6">
+<main>
+    <section class="container">
+        <div class="row">
+            <div class="col">
+        
+                <div class="container">
+                    <div class="form-row">
+                    <div class="col-12 ">
 
-                    <div>
-                        
                         <form action="" method="get" enctype="text/plain">
                             <label for="UserName">Nombre y Apellido </label>
-                                     <input type="text" id="UserName" name="UserName" placeholder="Coloque su nombre">
-                                    </div>
-                                    <div>
-                                        <label for="UserMail">Correo electronico</label>
-                                                <input type="email" id="UserMail" name="UserMail" placeholder="Coloque su email" required>
-                                            </div>
-                                            <div>
-                                                <label for="UserPsw">Contraseña</label>
-                                                <input type="password" name="UserPsw" id="UserPsw"placeholder="Coloque su contaseña">
-                                            </div>
-                                            <div>
-                                                <label for="text"></label>
-                                                Cuentanos como nos conociste.¿Que te gusto o te gustaria que incluyeramos a nuestro catalogo?
-                                                <br>
-                                                <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                            <input type="text" id="UserName" name="UserName" placeholder="Coloque su nombre">
+                        </div>
+                    
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <label for="UserMail">Correo electronico</label>
+                                                            <input type="email" id="UserMail" name="UserMail" placeholder="Coloque su email" required>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <label for="UserPsw">Contraseña</label>
+                            <input type="password" name="UserPsw" id="UserPsw"placeholder="Coloque su contaseña">
+                                            
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <label for="text"></label>
+                        <p>Cuentanos como nos conociste.¿Que te gusto o te gustaria que incluyeramos a nuestro catalogo?</p>
+                        <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                                                </div>
+                                                <div class="col-12 col-md-12 col-lg-12"> 
+                                                    <label for="customRange3" class="form-label">¿Cuanto te gustaron nuestro productos?</label>
+                                                    <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+                                                </div>    
+                                                <div class="col-6 col-md-4 col-lg-4 ">
+                                                    <input class="bton" type="submit" value="Registrarte">
+                                                </div>        
+                                                <div class="col-6 col-md-4 col-lg-4">
+                                                    <input class="bton" type="reset" value="Borrar todo">
+                                                </div>
                                             </div>
                                         </div>
-                                        <section class="container">
-
-                                            <div class="row">
-                                                
-                                                
-                                                    <div class="col-12 col-md-4 col-lg-4">
-                                                        <input type="submit" value="Registrarte">
-                                                    </div>
-                                                    <div class="col-12 col-md-4 col-lg-4">
-                                                        <input type="reset" value="Borrar todo">
-                                                    </div>
-                                                    
-                                                </div>
-                                            </section>
-                         </form>
+                                        
+                                    </div>
+                <div class="col-12 col-md-12 col-lg-6 " >
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/andarin.jpeg" class="card-img-top" alt="andarin">
+                        <div class="card-body">
+                          <h5 class="card-title">Andarin para bebé</h5>
+                          <p class="card-text">Andarin "Aprende a andar" 1 en 1.</p>
+                          <a href="./juguetes.html" class="btn btn-primary">Ver más</a>
+                        </div>
+                      </div>
+                                        
                     </div>
-                </div>
-                <div class="col-6">
-                    
-                </div>
         </div>
-    </div>  
+
+
+<</div>
+
+
+
+
+
+     
                             
                 
     </main>
     
-    <section>
-        <div class="container"> <h2>Temporada dia del niño</h2>
-            <div class="row">
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="../assets/megasanremo.jpeg" class="card-img-top" alt="Camionmegasanremo">
-                        <div class="card-body">
-                            <h5 class="card-title">Mega camion San Remo</h5>
-                            <p class="card-text">Camion volcador mega San Remo, 78cm de largo, 35cm de ancho.</p>
-                            <a href="./juguetes.html" class="btn btn-primary">ver más</a>
-                        </div>
-                    </div>
-                </div>
-              <div class="col order-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="../assets/monopatinrosa.jpeg" class="card-img-top" alt="monopatinrosametalico">
-                    <div class="card-body">
-                      <h5 class="card-title">Monopatin Metalico</h5>
-                      <p class="card-text">Scooter metalico, altura regulable en 3 posiciones, altura maxima 68cm.Luces en las ruedas</p>
-                      <a href="./juguetes.html" class="btn btn-primary">ver más</a>
-                    </div>
-                  </div>
-              </div>
-              <div class="col order-1">
-                <div class="card" style="width: 18rem;">
-                    <img src="../assets/andarin.jpeg" class="card-img-top" alt="andarin">
-                    <div class="card-body">
-                      <h5 class="card-title">Andarin para bebé</h5>
-                      <p class="card-text">Andarin "Aprende a andar" 1 en 1.</p>
-                      <a href="./juguetes.html" class="btn btn-primary">Ver más</a>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-
-    </section>
 
     <footer>
         <div class="container-fluid footer">

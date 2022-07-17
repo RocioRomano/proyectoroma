@@ -5,6 +5,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+#nav {
+  background-color: rgba(139, 203, 255, 0.8);
+}
+
 .card-group {
   margin: 15% 0 10% 0;
 }
