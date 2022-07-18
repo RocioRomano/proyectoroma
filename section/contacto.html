@@ -1,9 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Keywords y description -->
-    <meta name="description" content="¿Quienes somos?¿Como podes realizar una compra de nuestros productos?">
-    <meta name="keywords" content="Tienda, nosotros, compra, devoluciones, cambios, envios.s"> 
+    <meta name="description" content="Registrate con nosotros para recibir descuentos.">
+    <meta name="keywords" content="Tienda,Registrarte, nosotros, conocenos">  
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/main.css">
     <script src="https://kit.fontawesome.com/81d6f9dd0f.js" crossorigin="anonymous"></script>
-    <title> Tienda Roma | Preguntas</title>
+    <title>Tienda Roma | Contacto </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
@@ -29,58 +28,90 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav align-items-center nav-dark">
               <li class="nav-item" >
-                <a class="nav-link active"id="nav-link" aria-current="page" href="../vistas/libreria.html">LIBRERIA</a>
+                <a class="nav-link active"id="nav-link" aria-current="page" href="../section/libreria.html">LIBRERIA</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="nav-link" href="../vistas/juguetes.html">JUGUETES</a>
+                <a class="nav-link" id="nav-link" href="../section/juguetes.html">JUGUETES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="nav-link" href="../vistas/preguntasfrecuentes.html">PREGUNTAS</a>
+                <a class="nav-link" id="nav-link" href="../section/preguntasfrecuentes.html">PREGUNTAS</a>
               </li>  
               <li class="nav-item">
-                <a class="nav-link" id="nav-link"href="../vistas/contacto.html">CONTACTO</a>
+                <a class="nav-link" id="nav-link"href="../section/contacto.html">CONTACTO</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    
-    <main>
-        <section class="container"> 
-            <div class="row">
-                <h3>Tienda Roma</h3>
-                <p> Somos dos hermanas que se unieron para emprender este camino,en la venta de articulos de libreria, juguetes, regalos por temporada.Comenzamos con la venta online de nuestros productos a comienzos del año 2020. Con la pandemia nuestro proyecto de abrir el local se tubo que postergar.</p>
-                <p>Es asi, como en julio de 2020 pudimos abrir nuestro negocio ubicado en Fortunata Garcia 2247, cumpliendo por fin nuestro deseo.</p>
-            </div>
-            <div class="row">
-                <h3>¿Por donde puedo realizar mi pedido?</h3>
-                <p> Puedes realizar tu pedido a travez de la pagina registrandote, cargando tus articulos al carrito y completando el pago o acordando a traves de nuestro Whats App con alguna de nosotras. </p>
-            </div>
-            <div class="row">
-                <h3>Envios o retiro</h3>
-                <p>Tu compra puedes retirarla de nuestro local ubicado en Fortunata garcia 2247.Para envios o retiro acordar a traves de Whats App.</p>
-            </div>
-            <div class="row">
-                <h3>Cambios y devoluciones</h3>
-                <p>Los cambios y devoluciones se realizan dentro de los 7 dias habiles despues de realizada la compra.</p>
-            </div>
-            <div class="row">
-                <h3></h3>
-                <p></p>
-            </div>
-
-            
-            
-                
+<main>
+    <section class="container">
+        <div class="row">
+            <div class="col">
         
-    </section>
-   
+                <div class="container">
+                    <div class="form-row">
+                    <div class="col-12 ">
+
+                        <form action="" method="get" enctype="text/plain">
+                            <label for="UserName">Nombre y Apellido </label>
+                            <input type="text" id="UserName" name="UserName" placeholder="Coloque su nombre">
+                        </div>
+                    
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <label for="UserMail">Correo electronico</label>
+                                                            <input type="email" id="UserMail" name="UserMail" placeholder="Coloque su email" required>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <label for="UserPsw">Contraseña</label>
+                            <input type="password" name="UserPsw" id="UserPsw"placeholder="Coloque su contaseña">
+                                            
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <label for="text"></label>
+                        <p>Cuentanos como nos conociste.¿Que te gusto o te gustaria que incluyeramos a nuestro catalogo?</p>
+                        <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                                                </div>
+                                                <div class="col-12 col-md-12 col-lg-12"> 
+                                                    <label for="customRange3" class="form-label">¿Cuanto te gustaron nuestro productos?</label>
+                                                    <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+                                                </div>    
+                                                <div class="col-6 col-md-4 col-lg-4 ">
+                                                    <input class="bton" type="submit" value="Registrarte">
+                                                </div>        
+                                                <div class="col-6 col-md-4 col-lg-4">
+                                                    <input class="bton" type="reset" value="Borrar todo">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                <div class="col-12 col-md-12 col-lg-6 " >
+                    <div class="card-publicidad" style="width: 18rem;">
+                        <img src="../assets/andarin.jpeg" class="card-img-top" alt="andarin">
+                        <div class="card-body">
+                          <h5 class="card-title">Andarin para bebé</h5>
+                          <p class="card-text">Andarin "Aprende a andar" 1 en 1.</p>
+                          <a href="./juguetes.html" class="btn btn-primary">Ver más</a>
+                        </div>
+                      </div>
+                                        
+                    </div>
+        </div>
 
 
-       
+<</div>
+
+
+
+
+
+     
+                            
+                
     </main>
     
+
     <footer>
       <div class="container-fluid footer">
        <div class="row">

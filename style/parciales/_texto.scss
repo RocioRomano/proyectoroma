@@ -1,0 +1,10 @@
+.texto{
+color: map-get($map:$colores, $key:purpura );
+ font-weight: 500;
+ font-size: large;
+   &-titulo{
+    color: map-get($map:$colores, $key:purpura );
+    font-weight: 700;
+    font-size: x-large;
+   }
+}

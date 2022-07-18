@@ -11,14 +11,14 @@
   background-color: rgb(255, 255, 255);
 }
 
-.card {
+.card-publicidad {
   color: purple;
   background-color: white;
   font-family: Roboto;
   font-weight: 600;
   transition: 0.2s ease all;
 }
-.card:hover {
+.card-publicidad:hover {
   background-color: rgb(221, 226, 255);
 }
 .card-img-top {
@@ -32,6 +32,23 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
+}
+.card-catalogo {
+  color: purple;
+  background-color: white;
+  font-family: Roboto;
+  font-weight: 600;
+  transform: scale(1, 1);
+  transition: 0.3s ease all;
+}
+.card-catalogo:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.boton-card-catalogo {
+  color: rgb(255, 255, 255);
+  background-color: violet;
+  transition: 0.3s ease all;
 }
 
 .row {
@@ -100,4 +117,15 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around !important;
+}
+
+.texto {
+  color: purple;
+  font-weight: 500;
+  font-size: large;
+}
+.texto-titulo {
+  color: purple;
+  font-weight: 700;
+  font-size: x-large;
 }/*# sourceMappingURL=main.css.map */
