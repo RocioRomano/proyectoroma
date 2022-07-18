@@ -72,10 +72,7 @@
   font-family: "Courier New", Courier, monospace;
   font-style: oblique;
   color: purple;
-  margin-left: 2em;
-  margin-right: 2em;
   padding-top: 0.5em;
-  position: relative;
 }
 .texto-iframe-titulo {
   font-style: italic;
@@ -88,7 +85,6 @@
 
 .iframe {
   border-radius: 0.4em;
-  margin: 1em;
 }
 
 body {
@@ -98,4 +94,10 @@ body {
 #link {
   text-decoration: none;
   list-style-type: none;
+}
+
+#row-iframe-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around !important;
 }/*# sourceMappingURL=main.css.map */
