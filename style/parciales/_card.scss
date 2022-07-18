@@ -1,11 +1,12 @@
 
 .card{
-    color:white;
-    background-color:rgb(238, 130,238,0.8) ;
-    font-weight: 500;
+    color:purple;
+    background-color:white;
+    font-family: Roboto;
+    font-weight: 600;
  transition: .2s ease all;
   &:hover{
-    background-color:violet ;
+    background-color:rgba(221, 226, 255) ;
   }
   &-img-top{
     opacity: 1;
@@ -14,8 +15,11 @@
   &-img-top:hover{
     opacity: 0.8;
   }
-        &-group{
-            margin: 15% 0 20% 0;
+       
+        &-title{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 700;
+            text-transform: uppercase;
         }
 
 

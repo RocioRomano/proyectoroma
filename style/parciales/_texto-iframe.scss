@@ -1,9 +1,21 @@
 .texto-iframe{
-    font-size:large;
+    font-size: xx-large;
     font-family:'Courier New', Courier, monospace;
     font-style:oblique;
+    color: map-get($map:$colores, $key:purpura);
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-top: 0.5em;
+    position: relative;
+    
     &-titulo{
         font-style: italic;
         font-size: xx-large;
+        color: purple;
+        font-weight: 800;
+        margin-left: 2em;
+        margin-right: 2em;
+        
+    
     }
 }

@@ -8,17 +8,18 @@
 #nav {
   padding-top: 0em;
   margin-bottom: 2em;
-  background-color: rgba(139, 203, 255, 0.8);
+  background-color: rgb(255, 255, 255);
 }
 
 .card {
-  color: white;
-  background-color: rgba(238, 130, 238, 0.8);
-  font-weight: 500;
+  color: purple;
+  background-color: white;
+  font-family: Roboto;
+  font-weight: 600;
   transition: 0.2s ease all;
 }
 .card:hover {
-  background-color: violet;
+  background-color: rgb(221, 226, 255);
 }
 .card-img-top {
   opacity: 1;
@@ -27,8 +28,10 @@
 .card-img-top:hover {
   opacity: 0.8;
 }
-.card-group {
-  margin: 15% 0 20% 0;
+.card-title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .row {
@@ -40,12 +43,19 @@
 }
 
 .footer {
-  background-color: rgba(139, 203, 255, 0.8);
+  background-color: rgba(139, 203, 255, 0.5);
 }
 
 #nav-link {
-  color: white;
+  color: rgb(187, 32, 187);
   text-transform: uppercase;
+  font-size: large;
+  font-weight: 400;
+  font-style: normal;
+  transition: 0.3 ease all;
+}
+#nav-link:hover {
+  color: rgb(105, 184, 248);
 }
 
 #img-logo {
@@ -58,16 +68,34 @@
 }
 
 .texto-iframe {
-  font-size: large;
+  font-size: xx-large;
   font-family: "Courier New", Courier, monospace;
   font-style: oblique;
+  color: purple;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-top: 0.5em;
+  position: relative;
 }
 .texto-iframe-titulo {
   font-style: italic;
   font-size: xx-large;
+  color: purple;
+  font-weight: 800;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 .iframe {
   border-radius: 0.4em;
-  margin: 2em;
+  margin: 1em;
+}
+
+body {
+  background-color: rgba(255, 189, 199, 0.6);
+}
+
+#link {
+  text-decoration: none;
+  list-style-type: none;
 }/*# sourceMappingURL=main.css.map */

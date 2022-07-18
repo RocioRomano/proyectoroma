@@ -10,14 +10,16 @@
     <link rel="stylesheet" href="../style/main.css">
     <script src="https://kit.fontawesome.com/81d6f9dd0f.js" crossorigin="anonymous"></script>
     <title>Tienda Roma </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
   </head>
-  <body>
+  <body class="body">
     <header>
-        <a href= ""><img src="../assets/Tienda Roma.png" alt="" class="logo img-fluid" id="img-logo" ></a>
-        
-      <nav class="navbar navbar-expand-lg navbar-light " id="nav">
+    <nav class="navbar navbar-expand-lg navbar-light p-2" id="nav">
         <div class="container-fluid">
-          <a class="navbar-brand" id="nav-link" href="">Tienda ROMA</a>
+          <a class="navbar-brand" id="nav-link" href=""><img src="../assets/Tienda Roma.png" alt="" class="logo img-fluid" id="img-logo" ></a>
           <button id="navbar-toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span  id="navbar-toggler"class="navbar-toggler-icon"></span>
           </button>
@@ -69,6 +71,24 @@
                       </div>
                 </div>
             </div>
+          <div class="row">
+            <div class="col">
+              <p class="texto-iframe-titulo">
+                
+              </p>
+            </div>
+            <div class="col">
+              <p class="texto-iframe-titulo">
+                Categorias
+              </p>
+            </div>
+            <div class="col">
+              <p class="texto-iframe-titulo">
+                
+              </p>
+            </div>
+            
+        </div>
             
   
         <div class="row">
@@ -76,7 +96,7 @@
                     <div class="card">
                       <img src="../assets/megasanremo.jpeg"  class="card-img-top" alt="Camion mega San Remo">
                       <div class="card-body">
-                        <h5 class="card-title">Juguetes</h5>
+                        <h3 class="card-title">Juguetes</h3>
                         <p class="card-text">Para bebes, niños y niñas. Sonajeros, musicales,monopatines, camiones,pelotas,cocinitas,cochecitos y carros, bebotes y más.</p>
                       </div>
                       
@@ -84,17 +104,20 @@
                     <div class="card">
                       <img src="../assets/cuadernoa4triunfante.jpeg" class="card-img-top" alt="Combo de Cuaderno y resaltadores">
                       <div class="card-body">
-                        <h5 class="card-title">Libreria</h5>
+                        <h3 class="card-title">Libreria</h3>
                         <p class="card-text">Articulos de libreria:Cuadernos, lapiceras, reasaltadores, microfibras,marcadores permanentes, marcadores punta pincel. </p>
                       </div>
                       
                     </div>
                     <div class="card">
-                      <img src="../assets/cuadrospolaroid.jpeg" class="card-img-top" alt="">
-                      <div class="card-body">Temporada</h5>
-                        <p class="card-text">Regalos por temporada: Dia de la madre, dia del padre, San valentin, Dia del maestro,etc.</p>
-                      </div>
-                      
+                      <img src="../assets/cuadrospolaroid.jpeg" class="card-img-top" alt="cuadro con fotos">
+                            <div class="card-body">
+
+                              <h3 class="card-title">Temporada</h3>
+                              <p class="card-text">Regalos por temporada: Dia de la madre, dia del padre, San valentin, Dia del maestro,etc.</p>
+                            </div>
+                          </div>
+                            
                     </div>
                 </div>
             
@@ -143,7 +166,7 @@
           </div>
         </div>
       </div>
-     <div class="row">
+     <div class="row ">
         <div class="col-12 col-md-12 col-lg-6">
           <h3>Encontranos</h3>
                   <p>Fortunata Garcia 2247</p>
@@ -151,18 +174,18 @@
          </div>
         <div class="col-12 col-md-12 col-lg-6">
           <div class="container">
-            <div class="row">
-              <div class="col-3 col-md-3 col-lg-12">
-                <a href="./vistas/libreria.html">Libreria</a>
+            <div class="row justify-content-center">
+              <div class="col-12  col-md-2 offset-md-1 col-lg-10 offset-lg-2">
+                <a href="./vistas/libreria.html"id="link">Libreria</a>
               </div>
-              <div class="col-3 col-md-3 col-lg-12">
-                <a href="./vistas/juguetes.html">Juguetes</a>
+              <div class="col-12  col-md-2 offset-md-1 col-lg-10 offset-lg-2">
+                <a href="./vistas/juguetes.html"id="link">Juguetes</a>
               </div>
-              <div class="col-3 col-md-3 col-lg-12">
-                <a href="./vistas/contacto.html">Contacto</a>
+              <div class="col-12 col-md-2 offset-md-1 col-lg-10 offset-lg-2">
+                <a href="./vistas/contacto.html "id="link" >Contacto</a>
               </div>
-              <div class="col-3 col-md-3 col-lg-12">
-                <a href="./vistas/preguntas_frecuentes.html">Preguntas</a>
+              <div class="col-12 col-md-2 offset-md-1 col-lg-10 offset-lg-2">
+                <a href="./vistas/preguntas_frecuentes.html"id="link">Preguntas</a>
               </div>
               
             </div>
