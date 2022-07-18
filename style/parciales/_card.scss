@@ -1,3 +1,6 @@
+.card.coloreado{
+  background-color:rgba(255, 255, 255,0.7);
+}
 
 .card{
     &-publicidad{
@@ -10,9 +13,17 @@
     &-publicidad:hover{
     background-color:rgba(221, 226, 255) ;
   }
-    &-img-top{
+    &-img-top-catalogo{
+      height:250px;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
     opacity: 1;
     transition: .2s ease all;
+    }
+    &-img-top{
+      opacity: 1;
+      transition: .2s ease all;
     }
     &-img-top:hover{
     opacity: 0.8;

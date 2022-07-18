@@ -6,5 +6,22 @@ color: map-get($map:$colores, $key:purpura );
     color: map-get($map:$colores, $key:purpura );
     font-weight: 700;
     font-size: x-large;
+  
    }
+   &-mediano-footer{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: map-get($map: $colores, $key:violeta );
+
+   }
+   &-chico-footer{
+    font-size: 1rem;
+    font-weight: 500;
+    color: map-get($map: $colores, $key:violeta);}
+
+    &-mediano-body{
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: map-get($map: $colores, $key:purpura );
+
 }

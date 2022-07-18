@@ -1,5 +1,5 @@
 .texto-iframe{
-    font-size: xx-large;
+    font-size: 1.5rem;
     font-family:'Courier New', Courier, monospace;
     font-style:oblique;
     color: map-get($map:$colores, $key:purpura);
@@ -10,12 +10,17 @@
     
     &-titulo{
         font-style: italic;
-        font-size: xx-large;
+        font-size: 2em;
         color: purple;
         font-weight: 800;
         margin-left: 2em;
         margin-right: 2em;
         
+        
     
     }
+}
+.texto-titulo{
+    display: flex;
+    justify-content: center;
 }
