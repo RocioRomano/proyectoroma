@@ -3,12 +3,13 @@
     font-family:'Courier New', Courier, monospace;
     font-style:oblique;
     color: map-get($map:$colores, $key:purpura);
-    
+    text-transform: uppercase;
     
     padding-top: 0.5em;
     
     
     &-titulo{
+        text-transform: uppercase;
         font-style: italic;
         font-size: 2em;
         color: purple;

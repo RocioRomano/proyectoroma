@@ -26,7 +26,7 @@
   background-color: rgb(221, 226, 255);
 }
 .card-img-top-catalogo {
-  height: 250px;
+  height: 300px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -74,7 +74,7 @@
 }
 
 .footer {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 .footer > .row > .col {
   text-align: center;
@@ -93,7 +93,7 @@
   color: rgb(187, 32, 187);
   text-transform: uppercase;
   font-size: large;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
   transition: 0.3 ease all;
 }
@@ -115,9 +115,11 @@
   font-family: "Courier New", Courier, monospace;
   font-style: oblique;
   color: purple;
+  text-transform: uppercase;
   padding-top: 0.5em;
 }
 .texto-iframe-titulo {
+  text-transform: uppercase;
   font-style: italic;
   font-size: 2em;
   color: purple;
@@ -163,11 +165,35 @@ body {
 }
 .texto-mediano-footer {
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 700;
   color: violet;
 }
 .texto-chico-footer {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
   color: violet;
+}
+.texto-chico-body {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: purple;
+}
+.texto-mediano-body {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: purple;
+}
+.texto-grande-body {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: purple;
+}
+.texto-chico-form {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: purple;
+}
+.texto-mediano-nav {
+  font-size: 1.5rem;
+  color: purple;
 }/*# sourceMappingURL=main.css.map */
